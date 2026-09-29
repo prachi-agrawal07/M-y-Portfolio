@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+
+/* Home Section */
+
+.home {
+    background-color: #dff6ff;
+    padding: 60px 10%;
+    text-align: center;
+}
+
+.home h1 {
+    color: #222;
+    font-size: 35px;
+}
+
+.home h3 {
+    color: #0088a9;
+}
+
+.home p {
+    font-size: 18px;
+}
+
+.home img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+
+/* Button */
+
+button {
+    background-color: #0088a9;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #005f73;
+}
+
+
+/* Sections */
+
+section {
+    padding: 50px 10%;
+    text-align: center;
+}
+
+section h1 {
+    color: #0088a9;
+    margin-bottom: 25px;
+}
+
+section p {
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+
+/* Skills */
+
+.skills {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.skills div {
+    background-color: white;
+    padding: 20px;
+    width: 200px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.skills h3 {
+    color: #0088a9;
+}
+
+
+/* Projects */
+
+.projects {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.projects div {
+    background-color: white;
+    padding: 20px;
+    width: 220px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.projects h3 {
+    color: #0088a9;
+}
+
+
+/* Contact */
+
+form {
+    width: 400px;
+    max-width: 90%;
+    margin: auto;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+}
+
+textarea {
+    height: 100px;
+}
+
+
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
